@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    background-image: url(bg.jpg);
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 70px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.topnav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: fixed;
+    display: flex;
+    padding: 14px 20px;
+    justify-content: center;
+}
+
+.topnav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: powderblue;
+}
+
+
+.header {
+    font-family: Times New Roman;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 4em; 
+}
+button {
+width: 200px;
+padding: 15px 0;
+text-align: center;
+margin: 20px 10px;
+border-radius: 25px;
+font-weight: bolder;
+border: 2px solid white;
+background: transparent;
+color: white;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+}
+
+span {
+background: powderblue;
+height: 100%;
+width: 0%;
+border-radius: 25px;
+position: absolute;
+left: 0;
+bottom:0;
+z-index: -1;
+transition: 0.5s;
+}
+
+button:hover span {
+width: 100%;
+
+}
+
+button:hover {
+border: none;
+
+}
+
+.column p {
+  font-family: Times New Roman;
+  font-size: 10px;
+}
+
+h1 {
+  font-family: Times New Roman;
+}
+
+.ekirr {
+  position: absolute;
+    top: 30vh;
+    left: 35vh;
+}
+
+
+
+.about {
+    position: absolute; 
+    top: 290px; 
+    right: 85px; 
+    border-radius: 9px; 
+    max-width: 600px; 
+}
+
+.about p {
+    font-family: Times New Roman;
+    font-size: 32px; 
+    line-height: 1.0; 
+    margin: 0; 
+}
+
+.arts {
+  position: absolute;
+  top: 27.5vh;
+  left: 16vh;
+  text-align: center;
+  font-family: Times New Roman;
+}
+
+
+.musics {
+    position: absolute;
+    top: 27.5vh;
+    left: 69vh;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.crafts {
+    position: absolute;
+    top: 27.5vh;
+    left: 125vh;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.arts h2 {
+  color: white;
+}
+
+.musics h2 {
+  color: white;
+}
+
+.crafts h2 {
+  color: white;
+}
+
+
+.merch {
+    position: absolute;
+    top: 27.5vh;
+    left: 59vh;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.merch h2 {
+  color: white;
+}
+  
+
+.photobook {
+    position: absolute;
+    top: 27.5vh;
+    left: 5vh;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.tracklist {
+    position: absolute;
+    top: 27.5vh;
+    left: 60vh;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.poster {
+    position: absolute;
+    top: 11vh;
+    left: 115vh;
+    text-align: center;
+    font-family: Times New Roman;
+}
+ 
+.cd {
+    position: absolute;
+    top: 95vh;
+    left: 35vh;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.photocard {
+    position: absolute;
+    top: 100vh;
+    left: 110vh;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+
+
